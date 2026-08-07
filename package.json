@@ -1,0 +1,9 @@
+{
+  "name": "nih1tgupta-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentional vulnerable dep for Pie CVE harness E2E on Portfolio",
+  "dependencies": {
+    "left-pad": "1.0.1"
+  }
+}
