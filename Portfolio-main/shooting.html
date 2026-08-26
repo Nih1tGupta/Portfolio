@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting | Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html#Home">Home</a>
+            <a href="index.html#About">About</a>
+            <a href="index.html#Services">Work</a>
+            <a href="index.html#Portfolio">Activity</a>
+            <a href="shooting.html" class="Active">Shooting</a>
+            <a href="index.html#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="Shooting" id="Shooting">
+        <h2 class="heading">My&nbsp;<span>Shooting</span>&nbsp;Journey</h2>
+        <p class="shooting-intro">
+            Precision, focus and discipline &mdash; my journey in the sport of shooting spans
+            from my early school years to competitive events during college.
+        </p>
+
+        <!-- School Shooting -->
+        <div class="shooting-block">
+            <h3 class="shooting-subheading"><i class='bx bx-target-lock'></i> School</h3>
+            <div class="shooting-cont">
+                <div class="shooting-box">
+                    <i class='bx bxs-trophy'></i>
+                    <h4>Where It Began</h4>
+                    <p>
+                        Started shooting as part of my school's air rifle team, learning the
+                        fundamentals of stance, breathing control and aiming.
+                    </p>
+                </div>
+                <div class="shooting-box">
+                    <i class='bx bxs-medal'></i>
+                    <h4>Inter-School Championships</h4>
+                    <p>
+                        Represented my school in inter-school shooting championships, securing
+                        podium finishes in the 10m air rifle category.
+                    </p>
+                </div>
+                <div class="shooting-box">
+                    <i class='bx bx-crosshair'></i>
+                    <h4>Discipline &amp; Focus</h4>
+                    <p>
+                        Built the discipline and mental focus that shooting demands &mdash; skills
+                        that carried over into academics and everyday life.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- College Shooting -->
+        <div class="shooting-block">
+            <h3 class="shooting-subheading"><i class='bx bx-target-lock'></i> College</h3>
+            <div class="shooting-cont">
+                <div class="shooting-box">
+                    <i class='bx bxs-trophy'></i>
+                    <h4>College Team</h4>
+                    <p>
+                        Continued the sport at NIT Raipur, competing in inter-college
+                        tournaments and refining precision shooting techniques.
+                    </p>
+                </div>
+                <div class="shooting-box">
+                    <i class='bx bxs-medal'></i>
+                    <h4>Tournaments &amp; Fests</h4>
+                    <p>
+                        Participated in college sports fests and shooting meets, competing
+                        against skilled marksmen from across the region.
+                    </p>
+                </div>
+                <div class="shooting-box">
+                    <i class='bx bx-crosshair'></i>
+                    <h4>Team Spirit</h4>
+                    <p>
+                        Learned the value of teamwork and consistency while balancing shooting
+                        practice with a demanding IT curriculum.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html" class="btn"><b>Back to Home</b></a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Nihit All Rights Reserved.</p>
+        </div>
+        <div class="footer-icontop">
+            <a href="#Shooting"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.querySelector('.navbar');
+        if (menuIcon) {
+            menuIcon.addEventListener('click', () => {
+                navbar.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+</html>
